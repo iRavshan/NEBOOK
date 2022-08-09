@@ -2301,6 +2301,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-content h1 {
     font-size: 36px;
   }
+  .book{
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -3005,5 +3008,12 @@ h6 {
 
 .book img:hover{
  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+@media (max-width: 991.98px) {
+  .book{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
 }
 
